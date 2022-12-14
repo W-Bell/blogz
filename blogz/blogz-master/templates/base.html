@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <style type="text/css">
+        .error{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p align = center>
+        <a href = "/">Home</a>
+        <a href = "/blog">All Posts</a>
+        <a href = "/newpost">Add Blog Entry</a>
+        <a href = '/login'>Log in</a>
+        <a href='/logout'>Log out</a>
+    </p>
+    <hr />
+    {% block content %}
+    {% endblock %}
+
+    
+</body>
+</html>
